@@ -48,6 +48,10 @@ const App = () => {
             <PrivateRoute component={<ContactsPage />} navigateTo="/login" />
           }
         />
+        <Route
+          path="*"
+          element={<RestrictedRoute component={<HomePage />} navigateTo="/" />}
+        />
       </Route>
     </Routes>
   );
