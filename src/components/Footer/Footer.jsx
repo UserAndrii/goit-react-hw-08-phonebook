@@ -1,6 +1,12 @@
 import React from 'react';
 import { FaLinkedin, FaGithub, FaTelegram, FaInstagram } from 'react-icons/fa';
-import { FooterContainer, TextWrapper, IconLink, Text } from './Footer.styled';
+import {
+  FooterContainer,
+  TextWrapper,
+  IconLink,
+  Text,
+  Copyright,
+} from './Footer.styled';
 
 const Footer = () => {
   return (
@@ -27,6 +33,9 @@ const Footer = () => {
         <IconLink href="https://www.instagram.com/gadarandre/" target="_blank">
           <FaInstagram size={30} />
         </IconLink>
+        <div>
+          <Copyright>&copy; 2023 | Created by Andrii Hadar.</Copyright>
+        </div>
       </div>
     </FooterContainer>
   );

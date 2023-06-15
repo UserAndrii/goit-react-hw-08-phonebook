@@ -49,3 +49,7 @@ export const IconLink = styled.a`
     color: #ba000d;
   }
 `;
+
+export const Copyright = styled.p`
+  margin-top: 10px;
+`;
